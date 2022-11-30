@@ -1,0 +1,68 @@
+/* ======================= CUSTOM STYLES START ======================= */
+
+body {
+    font-family: sans-serif;
+    background: radial-gradient(
+        circle,
+        rgba(34, 193, 195, 1) 0%,
+        rgba(16, 42, 66, 1) 100%
+    );
+}
+
+.container {
+    height: 100vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.img-container {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.prev-btn,
+.next-btn {
+    color: #102a42;
+    font-size: 1.25rem;
+    background: white;
+    border-color: transparent;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.prev-btn:hover,
+.next-btn:hover {
+    background: #102a42;
+    color: white;
+}
+
+.container h4 {
+    margin-top: 1rem;
+    text-align: right;
+}
